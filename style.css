@@ -69,7 +69,7 @@ span{
 }
 
 @keyframes movingBar { 
-  from { margin-left: -5%; } 
+  from { margin-left: -90%; } 
   to { margin-left: 90%; }
 }
 
