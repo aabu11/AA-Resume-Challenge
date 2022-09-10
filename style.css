@@ -10,7 +10,7 @@ h3,h1 { color: blue;
 
 .line {
   
-  background: ghostwhite; 
+  background: red; 
             font-size: 20px; 
             padding: 10px; 
             border: 1px solid lightgray; 
@@ -69,7 +69,7 @@ span{
 }
 
 @keyframes movingBar { 
-  from { margin-left: -90%; } 
+  from { margin-left: 90%; } 
   to { margin-left: 90%; }
 }
 
