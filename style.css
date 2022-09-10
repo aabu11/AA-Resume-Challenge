@@ -33,7 +33,7 @@ body { background-color:#F8F8FF
   
 }
 
-span{
+h1{
   
   color: red;
   animation-name: example;
@@ -62,7 +62,7 @@ span{
       
 }
 
-.nameSpan {
+.nameSpan { 
   
 
   animation: 4s linear 0s infinite alternate movingBar;
