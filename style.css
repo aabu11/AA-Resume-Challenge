@@ -35,7 +35,7 @@ body { background-color:#F8F8FF
 
 h1{
   
-  color: red;
+
   animation-name: example;
   animation-duration: 4s;
   animation-iteration-count: infinite;
