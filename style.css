@@ -33,7 +33,7 @@ body { background-color:#F8F8FF
   
 }
 
-h1{
+span{
   
   color: red;
   animation-name: example;
@@ -61,4 +61,16 @@ h1{
       text-align: center;
       
 }
+
+.nameSpan {
+  
+
+  animation: 4s linear 0s infinite alternate movingBar;
+}
+
+@keyframes movingBar { 
+  from { margin-left: -5%; } 
+  to { margin-left: 90%; }
+}
+
 
