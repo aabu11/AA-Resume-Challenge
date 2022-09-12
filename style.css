@@ -10,7 +10,7 @@ font-family: "Lucida Console", monospace;
 .line {
 
 background: ghostwhite; 
-          font-size: 20px; 
+          
           padding: 10px; 
           border: 1px solid lightgray; 
           margin: 10px;
