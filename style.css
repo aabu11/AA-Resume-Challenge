@@ -1,6 +1,4 @@
-h3,h1 { color: blue;
-    font-size:60px
-  }
+
 .header { 
     text-align: center;
 font-family: "Lucida Console", monospace;
@@ -33,6 +31,7 @@ margin-right: auto;
 }
 
  span{  font-size: 40px;
+     color: blue;
 
 
 
