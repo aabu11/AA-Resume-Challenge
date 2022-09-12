@@ -7,7 +7,7 @@
   
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
   
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css">
   
 </head>
 <body>
@@ -23,16 +23,14 @@
   
     <div class="wrapper"> 
      
-     <h1 class="header line nameSpan"> AHMED ABU </h1> 
+      <h1 class="header line"> <span class="nameSpan"> AHMED ABU </span> </h1> 
   
         <img class="img img-thumbnail" src="https://media-exp1.licdn.com/dms/image/D4E35AQFiF3G0cvS3ng/profile-framedphoto-shrink_400_400/0/1650152187966?e=1663171200&v=beta&t=x-f0UUgx2BZbZt9MhllcfawD2a-5kdM9ZZgMY_9Fji0" alt="Ahmed Abu photo" >
   
-        <br>      
- 
+        <br>        
+  
   </div> 
-  
-  <p class="media"> <a  class="header" href="https://www.linkedin.com/in/ahmed-abu-baa875170/"> Visit My Linkedin</a> </p>
-  
+  <a class="header media" href="https://www.linkedin.com/in/ahmed-abu-baa875170/"> Visit My Linkedin</a>
   <div> 
     <br>
     <h3 style="color:blue;" class="header line"> Experience</h3> 
@@ -103,18 +101,21 @@
     
 <h4 class="header line" style="color:blue;"> Contact Me At </h4>
 <footer> 
+  <b>
   <p class="center">Phone: 507-319-8081<br>
-  <a class="center" href="mailto:ahmedabu13@gmail.com">My Email</a></p>
+    <a class="center" href="mailto:ahmedabu13@gmail.com">My Email</a></p>
+
 </footer>
+</b>
 
 
 
-
-
-<button onclick="GoToTop()" type="button" class="btn btn-primary btn-lg active">Back to the Top</button>
+<div class="center">
+<button onclick="scrollToTop()" type="button" class="btn btn-primary btn-lg active">Back to the Top</button>
  
+</div>
 <script>
-        function GoToTop() {
+        function scrollToTop() {
             window.scrollTo(0, 0);
         }
     </script>
