@@ -1,76 +1,68 @@
-
 h3,h1 { color: blue;
-      font-size:60px
-    }
+    font-size:60px
+  }
 .header { 
-      text-align: center;
-  font-family: "Lucida Console", monospace;
-  
+    text-align: center;
+font-family: "Lucida Console", monospace;
+
 }
 
 .line {
-  
-  background: ghostwhite; 
-            font-size: 20px; 
-            padding: 10px; 
-            border: 1px solid lightgray; 
-            margin: 10px;
+
+background: ghostwhite; 
+          font-size: 20px; 
+          padding: 10px; 
+          border: 1px solid lightgray; 
+          margin: 10px;
 
 }
 
 body { background-color:#F8F8FF
-  
-  
+
+
 }
 
 .img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
 
-       width:350px;
-       height:300px;
-  
+     width:350px;
+     height:300px;
+
 }
 
-span{
-  
+ span{  font-size: 40px;
 
-  animation-name: example;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
+
+
+   
 }
 
-@keyframes example {
-  0%   {color: red;}
-  25%  {color: yellow;}
-  50%  {color: blue;}
-  75%  {color: black;}
-  100% {color: green;}
-  
-}
+
+ 
 
 .center{
-  text-align: center;
-  
+text-align: center;
+
 }
 
 
 .media { 
-      margin-left: 650px; 
-      text-align: center;
-      
+    margin-left: 650px; 
+    text-align: center;
+    
 }
 
 .nameSpan { 
   
+          font-size: larger;
 
-  animation: 4s linear 0s infinite alternate movingBar;
+
+      animation: 5s linear 0s infinite alternate movingBar;
 }
 
 @keyframes movingBar { 
-  from { margin-left: 90%; } 
-  to { margin-left: 90%; }
+from { margin-left: -93%; } 
+to { margin-right: -93%; }
 }
-
-
